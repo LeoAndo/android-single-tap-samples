@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="activity"
+            type="com.leo.singletapsample.MainActivity" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/rootView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.leo.singletapsample.CustomButton
+                    android:id="@+id/button1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CustomButton onTouchEvent activity"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <com.leo.singletapsample.CustomButton2
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CustomButton2 performClick activity"
+                    app:layout_constraintTop_toBottomOf="@id/button1" />
+
+                <com.leo.singletapsample.CustomButton
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> activity.startActivity2()}"
+                    android:text="CustomButton onTouchEvent xml"
+                    app:layout_constraintTop_toBottomOf="@id/button2" />
+
+                <com.leo.singletapsample.CustomButton2
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="@{() -> activity.startActivity2()}"
+                    android:text="CustomButton2 performClick xml"
+                    app:layout_constraintTop_toBottomOf="@id/button3" />
+
+                <Button
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="No tap control"
+                    app:layout_constraintTop_toBottomOf="@id/button4" />
+
+                <Button
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ext setOnSingleClickListener xml"
+                    app:layout_constraintTop_toBottomOf="@id/button5"
+                    app:onSingleClick="@{() -> activity.startActivity2()}" />
+
+                <Button
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ext setOnSingleClickListener activity"
+                    app:layout_constraintTop_toBottomOf="@id/button6" />
+
+                <Button
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ext DebouncedClickListener activity"
+                    app:layout_constraintTop_toBottomOf="@id/button7" />
+
+                <Button
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="ext setOnSingleTouchListener activity"
+                    app:layout_constraintTop_toBottomOf="@id/button8" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
