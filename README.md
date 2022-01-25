@@ -13,12 +13,6 @@ https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapCompose
 2022-01-25 20:26:21.889 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
 2022-01-25 20:26:22.024 12503-12503/com.example.singletapcomposesample D/SingleTapButton: Disable click for a certain period.
 2022-01-25 20:26:23.018 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
-2022-01-25 20:26:23.166 12503-12503/com.example.singletapcomposesample D/SingleTapButton: Disable click for a certain period.
-2022-01-25 20:26:23.841 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
-2022-01-25 20:26:23.969 12503-12503/com.example.singletapcomposesample D/SingleTapButton: Disable click for a certain period.
-2022-01-25 20:26:25.829 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
-2022-01-25 20:26:26.583 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
-2022-01-25 20:26:27.844 12503-12503/com.example.singletapcomposesample D/SingleTapButton: onSingleClick
 ```
 
 # best practice by kotlin
