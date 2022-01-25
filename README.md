@@ -21,7 +21,7 @@ https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapKotlinS
 # best practice by java
 https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapJavaSample/app/src/main/java/com/example/singletapjavasample/CustomButton2.java<br>
 
-# Capture Google Pixcel4 OS:12
+# Capture Google Pixel 4 OS:12
 
 | Compose | View |
 |:---|:---:|
