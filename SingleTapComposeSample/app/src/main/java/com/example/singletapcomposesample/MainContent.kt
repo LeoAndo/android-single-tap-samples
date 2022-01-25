@@ -1,7 +1,7 @@
 package com.example.singletapcomposesample
 
+import android.content.res.Configuration
 import android.os.SystemClock
-import android.util.Log
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,6 +9,7 @@ import androidx.compose.material.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.tooling.preview.Devices
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.example.singletapcomposesample.extention.mainContentPadding
@@ -33,7 +34,6 @@ fun MainContent() {
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
 private fun SingleTapSampleScreen(modifier: Modifier = Modifier) {
-    var lastClickTime by remember { mutableStateOf(0L) }
     var resultText by remember { mutableStateOf("result Text") }
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
@@ -44,11 +44,10 @@ private fun SingleTapSampleScreen(modifier: Modifier = Modifier) {
 
         repeat(3) {
             SingleTapButton(
-                lastClickTime = lastClickTime,
-                onSingleClick = {
-                    lastClickTime = SystemClock.elapsedRealtime()
-                    resultText =
-                        "elapsedRealtime(Minutes) ${TimeUnit.MILLISECONDS.toSeconds(lastClickTime)}"
+                onClick = {
+                    val elapsedRealtime =
+                        TimeUnit.MILLISECONDS.toMinutes(SystemClock.elapsedRealtime())
+                    resultText = "Button $it Clicked! elapsedRealtime(Minutes) $elapsedRealtime"
                 },
             ) {
                 Text(text = "Button $it")
@@ -57,7 +56,8 @@ private fun SingleTapSampleScreen(modifier: Modifier = Modifier) {
     }
 }
 
-@Preview(showBackground = true)
+@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_NO, device = Devices.PIXEL_4)
+@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES, device = Devices.PIXEL_4)
 @Composable
 fun DefaultPreview() {
     SingleTapComposeSampleTheme {
