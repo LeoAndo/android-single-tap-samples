@@ -10,7 +10,7 @@ Double tap deterrence sample project<br>
 https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapKotlinSample/app/src/main/java/com/leo/singletapsample/ViewExt.kt#L22<br>
 
 # best practice by java
-https://github.com/LeoAndo/SingleTapSample/blob/main/app/src/main/java/com/leo/singletapsample/CustomButton2.kt<br>
+https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapJavaSample/app/src/main/java/com/example/singletapjavasample/CustomButton2.java<br>
 
 # Capture Google Pixcel4 OS:12
 
