@@ -32,3 +32,8 @@ https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapJavaSam
 | Compose | View |
 |:---|:---:|
 |<img src="https://user-images.githubusercontent.com/16476224/150969337-bbeeb9e1-35de-4dac-9240-77a537aa2be4.gif" width=320 /> |<img src="https://user-images.githubusercontent.com/16476224/150948896-b2668c70-3816-405c-8181-a0313fdf00f3.png" width=320 /> |
+
+# development memo
+https://github.com/LeoAndo/android-single-tap-samples/pull/1<br>
+https://github.com/LeoAndo/SingleTapSample/issues/1<br>
+https://github.com/LeoAndo/SingleTapSample/pull/6<br>
