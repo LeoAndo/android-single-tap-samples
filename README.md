@@ -1,10 +1,9 @@
 # Overview
-
 Double tap deterrence sample project<br>
 
 # development environment
 
-<img width="686" alt="スクリーンショット 2022-01-25 18 24 15" src="https://user-images.githubusercontent.com/16476224/150949023-b4e97a86-8a8a-4f5d-b004-22ba437426a0.png">
+<img width="686" alt="スクリーンショット 2022-01-26 22 00 37" src="https://user-images.githubusercontent.com/16476224/151167390-089bc186-5422-4ca0-a99c-980f7e6a81a9.png">
 
 # best practice by compose
 https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapComposeSample/app/src/main/java/com/example/singletapcomposesample/ui/components/SingleTapButton.kt<br>
