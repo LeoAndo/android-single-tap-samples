@@ -11,9 +11,7 @@
         android:theme="@style/Theme.SingleTapComposeSample">
         <activity
             android:name=".MainActivity"
-            android:exported="true"
-            android:label="@string/app_name"
-            android:theme="@style/Theme.SingleTapComposeSample.NoActionBar">
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
