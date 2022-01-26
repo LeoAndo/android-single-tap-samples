@@ -25,7 +25,7 @@ https://github.com/LeoAndo/android-single-tap-samples/blob/main/SingleTapJavaSam
 
 | Compose | View |
 |:---|:---:|
-|<img src="https://user-images.githubusercontent.com/16476224/150969337-bbeeb9e1-35de-4dac-9240-77a537aa2be4.gif" width=320 /> |<img src="https://user-images.githubusercontent.com/16476224/150948896-b2668c70-3816-405c-8181-a0313fdf00f3.png" width=320 /> |
+|<img src="https://user-images.githubusercontent.com/16476224/151103601-debfd677-b05e-4234-86c9-ac5ffb86168c.gif" width=320 /> |<img src="https://user-images.githubusercontent.com/16476224/150948896-b2668c70-3816-405c-8181-a0313fdf00f3.png" width=320 /> |
 
 # Live Coding (SingleTapComposeSample)
 https://youtu.be/oTw2-tyJcRY<br>
